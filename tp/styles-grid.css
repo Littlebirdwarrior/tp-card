@@ -8,9 +8,6 @@ html{
 body{
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .profils-section{
@@ -38,6 +35,7 @@ body{
     grid-template-rows: auto 0.5fr 1fr;
     grid-template-columns: 1fr;
     grid-template-areas:
+      "action"
       "image"
       "content";
     gap: 1.5rem;
