@@ -1,18 +1,27 @@
 # Travaux Pratiques : intégrer une "Card" en HTML / CSS
 
-Faut faire quoi ?
+## :eyes: Solution
+
+:link: [Voir l'integration ici](https://littlebirdwarrior.github.io/tp-card/tp/index.html) (solution grid)
+
+### :watch: Temps passé :
+
+- solution flex: 1h
+- solution grid: 36 min
+
+## :question: Faut faire quoi ?
 
 - Cloner ce repo,
 - Puis comme dirait *R.* : "next, next, next",
 - Ton livrable sera l'URL de ton repo sur Github ou Gitlab
 
-On a combien de temps ?
+*On a combien de temps ?*
 
 - Tu fais ce que tu veux avec les dispos et l'envie que tu as
 - Si tu n'arrives pas à avancer, tu me préviens et on voit ça ensemble
 - Dès que c'est fini, tu me préviens et on voit ça ensemble
 
-## Consignes globales
+## :pen: Consignes globales
 
 - Tu es censé réaliser ce TP **sans aide extérieure**, mais ce n'est pas grave si tu le fais&#8239;: dans ce cas, laisse un commentaire indiquant où (et pourquoi) tu as cherché de l'aide.
 - Il est **inutile de reproduire à la perfection** les couleurs exactes, les arrondis ou autre détail décoratif&hellip; mais si ça t'intéresse&nbsp;:
@@ -31,7 +40,7 @@ Les consignes spécifiques pour chaque version sont disponibles sous l'image d'i
 
 ![Consignes pour la card](tp/consignes.png "Consignes pour la card]")
 
-## Version 1 : HTML / CSS vanilla
+#### :one: Version 1 : HTML / CSS vanilla
 
 Reproduire la Card telle que présentée dans l'image `consignes.png`, en HTML et CSS :
 
@@ -42,7 +51,7 @@ Reproduire la Card telle que présentée dans l'image `consignes.png`, en HTML e
 
 **Note :** Merci de te renseigner pour comprendre l'intérêt de `@layer` présent dans le fichier `styles.css`.
 
-## Version 2 : Tailwind
+#### :two: Version 2 : Tailwind
 
 Reproduire la Card telle que présentée dans l'image `consignes.png`, à l'aide de Tailwind.
 
