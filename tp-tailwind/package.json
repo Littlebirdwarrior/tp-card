@@ -1,0 +1,16 @@
+{
+  "name": "tp-tailwind",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "author": "Alsacréations",
+  "license": "ISC",
+  "description": "Exercice sur les grilles et les licornes",
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.40"
+  },
+  "devDependencies": {
+    "postcss-import": "^16.1.0",
+    "postcss-nesting": "^12.1.5"
+  }
+}

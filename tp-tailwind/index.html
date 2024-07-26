@@ -3,61 +3,130 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link href="styles.css" rel="stylesheet" />
+    <link href="src/output.css" rel="stylesheet" />
     <title>Le TP qui fait peur</title>
   </head>
 
-  <body>
+  <body class="font-sans">
     <!-- Ci-dessous des morceaux de HTML à caser quelque part -->
 
-    <!-- Titre du document -->
-    <h1>Fiches contact de l'entreprise</h1>
+    <section class="grid gap-3 md:gap-4 max-w-fit mx-auto">
+      <!-- Titre du document -->
+      <h1 class="text-3xl font-bold my-8">Fiches contact de l'entreprise</h1>
 
-    <!-- Images de profil -->
-    <img class="" src="images/icon-unicorn.svg" alt="vive les licorne" width="100" />
-    <img class="" src="images/icon-woman.svg" alt="moi aussi je veux être une licorne" width="100" />
-    <img class="" src="images/icon-man.svg" alt="les licornes existent, j'y crois" width="100" />
-
-    <!-- Noms des profil -->
-    <h2 class="">Helmut Schmidt</h2>
-    <h2 class="">Schosséfine Wurcht</h2>
-    <h2 class="">Hans Schlaffenziegut</h2>
-
-    <!-- Descriptions de profil -->
-    <div class="">
-      <p>
-        Poste actuel&nbsp;: Junior Stackoverflow Analist and MacromediaFlash
-        Ninja
-      </p>
-    </div>
-    <div class="">
-      <p>
-        Poste actuel&nbsp;: Awesome Skyblog CompleteÜberCheerleader (en stage)
-      </p>
-    </div>
-    <div class="">
-      <p>
-        Poste actuel&nbsp;: Senior Copy&nbsp;&amp;&nbsp;Paste Ambassador (à la
-        retraite)
-      </p>
-    </div>
-
-    <!-- Actions sur la card -->
-    <div class="">
-      <button>
-        <img src="images/icon-edit.svg" width="32" height="32" alt="edit" />
-      </button>
-      <button>
-        <img src="images/icon-charts.svg" width="32" height="32" alt="stats" />
-      </button>
-      <button>
+      <!------>
+      <div
+        class="grid grid-cols-2 md:grid-cols-12 gap-3 md:gap-4 p-4 rounded-lg bg-aliceblue max-w-[800px]"
+      >
         <img
-          src="images/icon-filters.svg"
-          width="32"
-          height="32"
-          alt="filtres"
+          class="col-auto order-1 md:col-span-2 md:row-span-2 md:mx-auto"
+          src="images/icon-unicorn.svg"
+          alt="vive les licorne"
+          width="100"
         />
-      </button>
-    </div>
+        <h2 class="col-span-2 order-3 md:col-span-9 h-fit text-2xl font-bold">Helmut Schmidt</h2>
+        <p class="col-span-2 order-4 md:col-span-9">
+          Poste actuel&nbsp;: Junior Stackoverflow Analist and MacromediaFlash
+          Ninja
+        </p>
+        <!-- Actions sur la card -->
+        <div class="col-auto justify-self-end order-2 md:flex md:flex-col md:order-3 md:row-span-2">
+          <button>
+            <img src="images/icon-edit.svg" width="32" height="32" alt="edit" />
+          </button>
+          <button>
+            <img
+              src="images/icon-charts.svg"
+              width="32"
+              height="32"
+              alt="stats"
+            />
+          </button>
+          <button>
+            <img
+              src="images/icon-filters.svg"
+              width="32"
+              height="32"
+              alt="filtres"
+            />
+          </button>
+        </div>
+      </div>
+      <!------>
+      <div
+        class="grid grid-cols-2 md:grid-cols-12 gap-3 md:gap-4 p-4 rounded-lg bg-aliceblue max-w-[800px]"
+      >
+        <img
+          class="col-auto order-1 md:col-span-2 md:row-span-2 md:mx-auto"
+          src="images/icon-woman.svg"
+          alt="moi aussi je veux être une licorne"
+          width="100"
+        />
+        <h2 class="col-span-2 order-3 md:col-span-9 h-fit text-2xl font-bold">Schosséfine Wurcht</h2>
+        <p class="col-span-2 order-4 md:col-span-9">
+          Poste actuel&nbsp;: Awesome Skyblog CompleteÜberCheerleader (en stage)
+        </p>
+        <!-- Actions sur la card -->
+        <div class="col-auto justify-self-end order-2 md:flex md:flex-col md:order-3 md:row-span-2">
+          <button>
+            <img src="images/icon-edit.svg" width="32" height="32" alt="edit" />
+          </button>
+          <button>
+            <img
+              src="images/icon-charts.svg"
+              width="32"
+              height="32"
+              alt="stats"
+            />
+          </button>
+          <button>
+            <img
+              src="images/icon-filters.svg"
+              width="32"
+              height="32"
+              alt="filtres"
+            />
+          </button>
+        </div>
+      </div>
+      <!------>
+      <div
+        class="grid grid-cols-2 md:grid-cols-12 gap-3 md:gap-4 p-4 rounded-lg bg-aliceblue max-w-[800px]"
+      >
+        <img
+          class="col-auto order-1 md:col-span-2 md:row-span-2 md:mx-auto"
+          src="images/icon-man.svg"
+          alt="les licornes existent, j'y crois"
+          width="100"
+        />
+        <h2 class="col-span-2 order-3 md:col-span-9 h-fit text-2xl font-bold">Hans Schlaffenziegut</h2>
+        <p class="col-span-2 order-4 md:col-span-9">
+          Poste actuel&nbsp;: Senior Copy&nbsp;&amp;&nbsp;Paste Ambassador (à la
+          retraite)
+        </p>
+        <!-- Actions sur la card -->
+        <div class="col-auto justify-self-end order-2 md:flex md:flex-col md:order-3 md:row-span-2">
+          <button>
+            <img src="images/icon-edit.svg" width="32" height="32" alt="edit" />
+          </button>
+          <button>
+            <img
+              src="images/icon-charts.svg"
+              width="32"
+              height="32"
+              alt="stats"
+            />
+          </button>
+          <button>
+            <img
+              src="images/icon-filters.svg"
+              width="32"
+              height="32"
+              alt="filtres"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
