@@ -1,13 +1,18 @@
 # Travaux Pratiques : intégrer une "Card" en HTML / CSS
 
-## :eyes: Solution
+## :link: Voir l'intégration ici
 
-:link: [Voir l'integration ici](https://littlebirdwarrior.github.io/tp-card/tp/index.html) (solution grid)
+:one: [solution avec grid](https://littlebirdwarrior.github.io/tp-card/tp-grid/index.html)
+
+:two: [solution avec flex](https://littlebirdwarrior.github.io/tp-card/tp-flex/index.html)
+
+:three: [solution avec tailwind](https://littlebirdwarrior.github.io/tp-card/tp-tailwind/index.html)
 
 ### :watch: Temps passé :
 
-- solution flex: 1h
-- solution grid: 36 min
+- solution flex: 2h
+- solution grid: 3h
+- solution tailwind: 6h
 
 ## :question: Faut faire quoi ?
 
