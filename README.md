@@ -2,11 +2,11 @@
 
 ## :link: Voir l'intégration ici
 
-:one: [solution avec grid](https://littlebirdwarrior.github.io/tp-card/tp-grid/index.html)
+:one: [solution avec grid](https://littlebirdwarrior.github.io/tp-card/tp-grid)
 
-:two: [solution avec flex](https://littlebirdwarrior.github.io/tp-card/tp-flex/index.html)
+:two: [solution avec flex](https://littlebirdwarrior.github.io/tp-card/tp-flex)
 
-:three: [solution avec tailwind](https://littlebirdwarrior.github.io/tp-card/tp-tailwind/index.html)
+:three: [solution avec tailwind](https://littlebirdwarrior.github.io/tp-card/tp-card/tp-tailwind)
 
 ### :watch: Temps passé :
 
