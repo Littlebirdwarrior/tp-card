@@ -6,7 +6,7 @@
 
 :two: [solution avec flex](https://littlebirdwarrior.github.io/tp-card/tp-flex)
 
-:three: [solution avec tailwind](https://littlebirdwarrior.github.io/tp-card/tp-card/tp-tailwind)
+:three: [solution avec tailwind](https://littlebirdwarrior.github.io/tp-card/tp-tailwind)
 
 ### :watch: Temps passé :
 
